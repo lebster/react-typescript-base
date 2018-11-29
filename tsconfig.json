@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "jsx": "react",
+    "lib": ["es2015", "es2015.iterable", "dom"],
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "paths": {
+      "components/*": ["src/components/*"],
+      "views/*": ["src/views/*"],
+      "stores/*": ["src/stores/*"],
+      "models/*": ["src/models/*"],
+      "src/*": ["src/*"],
+      "theme/*": ["src/theme/*"]
+    },
+    "target": "es5",
+    "sourceMap": true
+  },
+  "include": [
+    "./src/**/*",
+    "./global.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
